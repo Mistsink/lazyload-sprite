@@ -1,0 +1,127 @@
+.wrap{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    overflow: hidden;
+}
+
+#content{
+    height: 300px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* 轮播的主要内容 */
+
+.banner-item{
+    float:left;
+
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-auto-columns: 1fr 2fr 1fr;
+    grid-template-areas: '. main .';
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-item-main{
+    grid-area: main;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.banner-item-main>h2{
+    margin-top: 100px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    border: 0.4px solid #ccc;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 标识圆点 */
+.ul_point{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    bottom:-88%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    z-index: 999;
+}
+
+.ul_point li{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: #ccc;
+    box-sizing: border-box;
+}
+
+.ul_point li:hover{
+    cursor: pointer;
+}
+
+.ul_point .li_point{
+    background: #f40;
+}
+
+
+/* 左右箭头 */
+.arrow_left{
+    width:60px;
+    height:60px;
+    background: rgba(255,255,255,0.2);
+    border-radius:50%;
+    position:absolute;
+    left:2%;
+    top:140px;
+    line-height:60px;
+    text-align:center;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.arrow_right{
+    width:60px;
+    height:60px;
+    background: rgba(255,255,255,0.2);
+    border-radius:50%;
+    position:absolute;
+    right:2%;
+    top:140px;
+    line-height:60px;
+    text-align:center;
+    font-size:xx-large;
+    cursor: pointer;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprite&lazy-load</title>
+    <link href="../styles/base.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo-con">
+            <i class="icon logo "></i>
+        </div>
+        <ul class="top-nav">
+            <li class="nav-item">Nav</li>
+            <li class="nav-item">Nav</li>
+            <li class="nav-item">Nav</li>
+            <li class="nav-item">Nav</li>
+            <li class="nav-item">Nav</li>
+            <li class="nav-item">Nav</li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <div class="wrap" id="wrap">
+
+            <!-- 圆点标识 -->
+            <ul class="ul_point">
+                <li class="li_point"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- 图片内容 -->
+            <div id="content">
+                <div class="banner-item">
+                    <div class="banner-item-main">
+                        <h2>标题标题标题标题标题标题标题</h2>
+                        <h3>标题标题标题标题标题</h3>
+                        <div class="button">了解更多</div>
+                    </div>
+                </div>
+                <!-- 左右箭头 -->
+                <div class="arrow_left">
+                    <span>
+                        <</span> </div> <div class="arrow_right">
+                            <span>></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="summary-container">
+            <ul class="summary">
+                <li class="summary-item">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <p>标题标题标题</p>
+                    <ul class="summary-con">
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                    </ul>
+                    <div class="button summary-more">更多</div>
+                </li>
+                <li class="summary-item">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <p>标题标题标题</p>
+                    <ul class="summary-con">
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                    </ul>
+                    <div class="button summary-more">更多</div>
+                </li>
+                <li class="summary-item">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <p>标题标题标题</p>
+                    <ul class="summary-con">
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                    </ul>
+                    <div class="button summary-more">更多</div>
+                </li>
+                <li class="summary-item">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <p>标题标题标题</p>
+                    <ul class="summary-con">
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                        <li class="summary-con-item">
+                            <i class="star"></i>内容内容内容
+                        </li>
+                    </ul>
+                    <div class="button summary-more">更多</div>
+                </li>
+            </ul>
+        </div>
+        <div class="pandect-container">
+            <div class="pandect">
+                <h2 class="big-t">pandect--总览</h2>
+                <ul class="pandect-details">
+                    <li class="pandect-detail">
+                        <h3>title</h3>
+                        <p class="pandect-text">content-content-content</p>
+                        <img src="../images/content.png" alt="">
+                    </li>
+                    <li class="pandect-detail">
+                        <h3>title</h3>
+                        <p class="pandect-text">content-content-content</p>
+                        <img src="../images/content.png" alt="">
+                    </li>
+                    <li class="pandect-detail">
+                        <h3>title</h3>
+                        <p class="pandect-text">content-content-content</p>
+                        <img src="../images/content.png" alt="">
+                    </li>
+                    <li class="pandect-detail">
+                        <h3>title</h3>
+                        <p class="pandect-text">content-content-content</p>
+                        <img src="../images/content.png" alt="">
+                    </li>
+                    <li class="pandect-detail">
+                        <h3>title</h3>
+                        <p class="pandect-text">content-content-content</p>
+                        <img src="../images/content.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="more-infos">
+            <li class="info">
+                <div class="title">
+                    <p>title</p><a href="javascript::">更多></a>
+                </div>
+
+                <ul class="info-details">
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="info">
+                <div class="title">
+                    <p>title</p><a href="javascript::">更多></a>
+                </div>
+
+                <ul class="info-details">
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                    <li class="info-detail">
+                        <a href="javascript::">
+                            content-content-content<span class="date">2020/5/12</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <div class="info">
+                <div class="title">
+                    <p>合作伙伴</p>
+                </div>
+                <ul class="partners">
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                    <li class="partner"><a href="javascript::"><img  class="partner-img" data-src="../images/partner.png" alt=""></a></li>
+                </ul>
+            </div>
+        </ul>
+
+    </div>
+
+    <div class="footer">
+        <i class="logo"></i>
+        <ul class="contacts">
+            <li class="contact">
+                <p class="address">company address: company address company address</p>
+                <p class="website">service website: cxxxxxxxxxx</p>
+                <p class="tel">TEL: 123456789</p>
+                <p class="more">zxcvbnm,asdf</p>
+            </li>
+            <li class="contact">
+                <p class="address">company address: company address company address</p>
+                <p class="website">service website: cxxxxxxxxxx</p>
+                <p class="tel">TEL: 123456789</p>
+                <p class="more">zxcvbnm,asdf</p>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright: xcvbnm,</p>
+            <p>技术支持：111111111111111111111111111111111111</p>
+        </div>
+    </div>
+</body>
+<script src="../js/index.js"></script>
+</html>
